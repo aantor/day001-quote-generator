@@ -1,4 +1,4 @@
-# day001-quote-generator
+Quote Generator
  An app that generate random quotes
 
 ## LIVE PREVIEW - https://aantor.github.io/day001-quote-generator/
