@@ -8,7 +8,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple random quote generator. Generate random quotes on each click and you can tweet quotes directly by clicking the twiiter icon. Be motivated 🙂
+This project is simple random quote generator. Generate random quotes on each click and you can tweet quotes directly by clicking the twitter icon. Be motivated😉
 	
 ## Technologies
 Project is created with:
