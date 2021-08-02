@@ -5,12 +5,12 @@ const twitterBtn = document.querySelector('#twitter');
 const newQuoteBtn = document.querySelector('#new-quote');
 const loader = document.querySelector('#loader');
 
-function showLoading() {
+function showLoadingSpinner() {
   loader.hidden = false;
   quoteContainer.hidden = true;
 }
 
-function hideLoading() {
+function hideLoadingSpinner() {
   if (!loader.hidden) {
     quoteContainer.hidden = false;
     loader.hidden = true;
@@ -18,7 +18,7 @@ function hideLoading() {
 }
 
 async function getQuote() {
-  showLoading();
+  showLoadingSpinner();
   const apiUrl = 'https://goquotes-api.herokuapp.com/api/v1/random?count=10';
   try {
     const response = await fetch(apiUrl);
@@ -39,7 +39,7 @@ async function getQuote() {
         quoteText.classList.remove('long-quote');
       }
     });
-    hideLoading();
+    hideLoadingSpinner();
   } catch (error) {}
 }
 
