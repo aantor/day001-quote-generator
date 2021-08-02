@@ -8,11 +8,11 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple  random quote generator.
+This project is simple random quote generator. Generate random quotes on each click and you can tweet quotes directly by clicking the twiiter icon. Be motivated 🙂
 	
 ## Technologies
 Project is created with:
-* API: http://api.forismatic.com/api/1.0/
+* API: https://goquotes-api.herokuapp.com/api/v1/random?count=10
 * Background patterns: www.heropatterns.com
 * Google fonts: https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic
 	
