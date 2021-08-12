@@ -1,7 +1,7 @@
 # Quote Generator
  An app that generate random quotes
 
-## LIVE PREVIEW - https://aantor.github.io/day001-quote-generator/
+## LIVE PREVIEW - https://aantor.github.io/day1_quote-generator/
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
